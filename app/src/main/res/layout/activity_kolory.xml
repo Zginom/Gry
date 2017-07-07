@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.example.daniel.gry.Kolory" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/slowo"
+        android:textSize="50sp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pytanie"
+        android:textColor="@color/Purple"
+        android:textSize="25sp"
+        android:layout_marginBottom="@android:dimen/app_icon_size"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@android:dimen/app_icon_size">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:background="@color/Red"
+            android:id="@+id/czerwony"
+            android:onClick="checkRed"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:background="@color/Blue"
+            android:id="@+id/niebieski"
+            android:onClick="checkBlue"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:background="@color/Green"
+            android:id="@+id/zielony"
+            android:onClick="checkGreen"
+            />
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/koloryStart"
+        android:text="@string/start"
+        android:textColor="@color/Purple"
+        android:textSize="40sp"
+        android:onClick="kolorStart"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.daniel.gry.Wyniki">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pokaz"
+        android:text="Wyświetl"
+        android:textColor="@color/Blue"
+        android:textSize="50sp"
+        android:layout_marginTop="@android:dimen/notification_large_icon_height"
+        android:onClick="wyswietl"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/usun"
+        android:text="Usuń"
+        android:textSize="50sp"
+        android:textColor="@color/Red"
+        android:layout_marginTop="@android:dimen/notification_large_icon_height"
+        android:onClick="usun"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:id="@+id/rekordy"
+        android:textColor="@color/Purple"
+        android:visibility="gone"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/powrot"
+        android:text="Powrót"
+        android:textColor="@color/Green"
+        android:textSize="50sp"
+        android:onClick="powrot"
+        android:visibility="gone"
+        />
+
+
+    </LinearLayout>
+</ScrollView>

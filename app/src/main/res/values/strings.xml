@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Gry</string>
+    <string name="start">Start</string>
+    <string name="autor">Autor</string>
+    <string name="podpis">Chomik tu był</string>
+    <string name="siedem">Jeżeli chcesz wcisnąć siedem, Wcisnij siedem!</string>
+    <string name="wyniki">Wyniki</string>
+    <string name="imieINazwiskoAutora">Daniel Wójcik</string>
+    <string name="graKolory">Kolory</string>
+    <string name="graLiczenie">Liczenie</string>
+    <string name="graKierunki">Kierunki</string>
+    <string name="kolorSlowa">Zaznacz kolor słowa</string>
+    <string name="kolorZnaczenie">Zaznacz znaczenie słowa</string>
+
+</resources>
